@@ -4,11 +4,11 @@ phrase = "quiet"
 def speak_to_grandma
   phrase = "quiet"
   if phrase == "quiet"
-    puts "HUH?! SPEAK UP SONNY!"
+    return "HUH?! SPEAK UP SONNY!"
   elsif phrase == "shout"
-    puts "NO, NOT SINCE 1938!"
+    return "NO, NOT SINCE 1938!"
   else
-    puts "I LOVE YOU TOO PUMPKIN!"
+    return "I LOVE YOU TOO PUMPKIN!"
 end
 
 # Whatever you say to grandma, she should respond with
