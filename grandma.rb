@@ -2,6 +2,7 @@
 phrase = "quiet"
 
 def speak_to_grandma
+  phrase = "quiet"
   if phrase == "quiet"
     puts "HUH?! SPEAK UP SONNY!"
   elsif phrase == "shout"
